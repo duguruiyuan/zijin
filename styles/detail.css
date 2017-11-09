@@ -1,0 +1,247 @@
+
+.h2-font26{
+    font-size: 0.32rem;
+    color:#fa5050;
+    padding: 0.3rem 0;
+    float: left;
+ }
+ .font20{
+    font-size: 0.26rem;
+    display: block;
+    float: right;
+    padding: 0.3rem 0;
+    color: #a0a0a0;
+  }
+.course-dist{
+    display: flex;
+    display: -webkit-flex;
+	padding-top:0.25rem;
+	margin-top: 0.3rem;
+}
+.course-dist div{
+    flex: 1;
+    border-right: .01rem solid #fff;
+    text-align: center;
+	border-right:0.01rem solid #e5e5e5;
+}
+.course-dist div>figure h2{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    background: #fff;
+    font-size: 0.3rem;
+    color: #fa5050;
+    padding: 0.05rem 0;
+
+}
+.course-dist div>figure figcaption{
+    color: #999;
+    font-size: .24rem;
+	margin-top:0.1rem;
+    letter-spacing: -.01rem;
+}
+.a-link{
+    font-size: 0.26rem;
+    color: #999;
+    text-align: center;
+    padding:.2rem 0;
+    display: block;
+}
+.line{
+    width: 100%;
+    border-bottom: 0.01rem solid #e5e5e5;
+	position:relative;
+}
+.big-line{
+	width: 100%;
+    border-bottom: 0.2rem solid #e5e5e5;
+}
+	}
+.new-friend-box{
+    width:100%;
+	height:auto;
+}
+.new-friend-box a{ 
+	width:auto; 
+	height:0.8rem; 
+	float:left;
+}
+.new-friend-box #new-friend-text{
+	line-height:0.8rem; 
+	font-size:0.26rem; 
+	color:#fa5050; 
+	cursor:pointer;
+}
+.new-friend-box #new-friend-list{
+	margin-left:0.6rem;
+}
+.new-friend-box #indent{
+	float:right;
+	line-height:0.8rem;
+	font-size:0.26rem;
+	color:#4991bf;
+}
+.new-friend-box #indent img{ 
+	max-width:100%; 
+	margin-top:0.25rem;
+	width:0.2rem;
+	height:0.3rem; 
+}
+.new-friend-box #new-friend-list ul{ 
+	width:3.6rem;
+	height:0.8rem;
+	margin-top:0.12rem;
+	margin-right: 0.4rem;
+	
+}
+.new-friend-box #new-friend-list ul li{
+	float:right;
+	width:0.56rem;
+	height:0.56rem;
+	margin-left:0.15rem;
+}
+.new-friend-box #new-friend-list ul li img{ 
+	max-width:100%;
+}
+.Ly-box{
+	width:100%; 
+	height:auto; 
+	padding:0.2rem 0;
+}
+.Ly-box .userImg{
+	float:left; 
+	width:10%; 
+	height:auto;
+}
+.Ly-box .Ly-text{
+	float:left; 
+	width:88%; 
+	height:auto; 
+	margin-left:2%;
+}
+.Ly-box .Ly-text .userName{
+	margin-bottom:0.1rem;
+}
+.Ly-box .Ly-text .userName li{
+	float:left;
+}
+.Ly-box .Ly-text .userName li h2{
+	font-size:0.24rem;
+	color: #888;
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+	}
+.Ly-box .Ly-text .userName #DZ{ float:right;}
+.Ly-box .Ly-text .userName #DZ img{
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.Ly-box .Ly-text p{
+	font-size:0.26rem;
+	line-height:0.36rem;
+	color:#333;
+}
+#pre-contant{
+	font-size:0.36rem;
+	color:#999;
+	width:100%;
+	height:0.8rem;
+	line-height:0.8rem;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	margin-top:0.2rem;
+	display:block;
+}
+.swiper-wrapper{ 
+	margin:0.1rem auto;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin:0;
+	padding:0;
+}
+/*众筹玩法弹窗*/
+.zc-shade{
+		width: 100%; 
+		height: 100%; 
+		background: rgba(0,0,0,0.5); 
+		position: fixed; 
+		top: 0;
+		z-index:1111;
+		display: none;
+}
+.play-box{
+	display: none;
+	border: 0.01rem solid #666; 
+	width: 80%; 
+	background-color: #ffffff;
+	border-radius:0.1rem;
+	position: fixed;
+	z-index: 1112;
+	left: 0;
+	right: 0;
+	
+}
+.zc-play{ 
+	padding:0.3rem;
+}
+.zc-play header h1{
+	text-align: center;
+	font-size: 0.28rem;
+	font-weight: bold;
+	margin: 0.2rem auto;
+	display: block;
+}
+.zc-play figure span{
+	font-size: 0.26rem;
+	display: block;
+	font-weight: bold;
+	padding: 0.15rem 0;
+}
+.zc-play figure figcaption{
+	font-size: 0.26rem;
+	line-height: 0.4rem;
+}
+.know-del{
+	font-size: 0.28rem;
+	height: 0.6rem; 
+	text-align: center; 
+	line-height: 0.6rem; 
+	border-top: 0.01rem solid #e5e5e5; 
+	color:#4991bf;
+}
+/*课程详情*/
+.bottom-content{
+	width: 100%; 
+	height: auto; 
+	padding: 1rem 0 ; 
+	background-color:#f2f2f2;
+}
+.bottom-content>img{
+	width: 3rem; 
+	height: 0.6rem; 
+	display: block; 
+	margin: auto; 
+}

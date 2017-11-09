@@ -1,0 +1,18 @@
+
+.module {
+    padding-bottom: .6rem;
+}
+
+#course_back .module-content img:first-child {
+	margin-bottom: .5rem;
+}
+
+#set {
+	background: #f5f5f5;
+}
+
+
+#teachers {
+	background:transparent url(../images/secretary/icons/repeart.jpg) 0 0 repeat;
+	background-size: 5px 5px;
+}

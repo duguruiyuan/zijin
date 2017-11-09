@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>华扬资本-董秘</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<!--<script src="node_modules/vue/dist/vue.js"></script>-->
+<script src="http://code.jquery.com/jquery.js"> </script>
+<script src="../scripts/flexible.js"></script>
+<link rel="stylesheet" href="../styles/common.css">
+<link rel="stylesheet" href="../styles/detail.css">
+<link rel="stylesheet" href="../styles/jindubar.css">
+<link rel="stylesheet" href="../styles/swiper.css">
+</head>
+<body>
+<div id="banner">
+    <img src="../images/detail_img/banner.jpg" alt="">
+</div>
+<div class="module-content container">
+	<div class="introduce-course" ><span >学习考察</span>向华为考察学习</div>
+    <div class="row1">
+        <h2 class="left h2-font26">众筹中最低价：￥6000</h2>
+        <span class="right font20">市场参考价：<s>￥12000</s></span>
+        <div class="c-row"></div>
+    </div>
+    <div class="baifenbi" id="baifenbi">
+    	<div class="move-pl">已约20人<span></span></div>
+        <div class="processbar">
+            <div class="process" title="50.99"></div>
+            <div class="img1"><img src="../images/detail_img/jdbtn.png"></div>
+            <img src="../images/detail_img/jdbtn.png" class="img2">
+        </div>
+        <div class="c-row"></div>
+    </div>
+    <div class="small-num" >
+    	<span class="min-pl">20人</span>
+        <span class="max-pl">40人</span>
+        <div class="c-row"></div>
+    </div>
+</div>
+<script src="../scripts/test.js"></script>
+<script>
+        $(function() {
+            yuanFn($('.process'), loadlind);
+            move($('.move-pl'),0.5,1200);
+            far($(".min-pl"),0.3);
+            far($(".img1"),0.3);
+        });
+        
+</script>
+<div class="module-content container">
+    <div class="course-dist">
+        <div>
+            <figure>
+                <h2>12月3-4日</h2>
+                <figcaption>上课时间</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>深圳</h2>
+                <figcaption>地点</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>￥6000</h2>
+                <figcaption>最低学费</figcaption>
+            </figure>
+
+        </div>
+        <div>
+			<canvas id="test" width="50" height="50" style=" margin-top:-0.1rem;"></canvas>
+        </div>
+    </div>
+    <script src="../scripts/fn.js"></script>
+    <script>
+		createCricle('test', 20, 40,24,2,0.24);
+	</script>
+</div>
+<a href="#" class="a-link">众筹人数越多，人均收费越低</a>
+<div class="line"></div>
+<div class="module-content container">
+    <div class="new-friend-box">
+        <a href="" id="new-friend-text">我的13名新学友</a>
+        <a href="" id="new-friend-list">
+            <ul>
+                <li><img src="../images/detail_img/h-img.png" alt="1" class=""></li>
+                <li><img src="../images/detail_img/h-img.png" alt="1"></li>
+                <li><img src="../images/detail_img/h-img.png" alt="1"></li>
+                <li><img src="../images/detail_img/h-img.png" alt="1"></li>
+                <li><img src="../images/detail_img/h-img.png" alt="1"></li>
+            </ul>
+        </a>
+        <a href="" id="indent"><img src="../images/detail_img/rbtn.png"></a>
+    </div>
+    <div class="c-row"></div>
+</div>
+<div class="line"></div>
+<div class="module-content container">
+	<div class="new-friend-box">
+        <a href="" id="new-friend-text">查看其它排期</a>
+        <a href="" id="indent"><img src="../images/detail_img/rbtn.png"></a>
+    </div>
+    <div class="c-row"></div>
+</div>
+<div class="big-line"></div>
+<div class="module-content container">
+    <div style="width:100%; height:5rem; text-align:center; line-height:5rem;">内容详情页</div>
+    <!--<div>
+    	<p style="text-align: center; font-size:0.32rem"> 开班须知——众筹须知</p>
+    	<div style="font-size: 0.28rem; width: 100%;">
+    		<tr style="width:100%;height: 0.4rem; margin-top:0.2rem ; display: block;">
+    			<td style="width:50%; height: 0.4rem; text-align: right; border: 1px solid red;">课程时间 |</td>
+    			<td style="width:50%; height: 0.4rem;">11月18日-11月19日</td>
+    			<div style="clear: both;"></div>
+    		</tr>
+    		<tr style="width:100%;height: 0.4rem;margin-top:0.2rem; display: block;">
+    			<td style="width:3rem; height: 0.4rem; text-align: right;">课程地点 |</td>
+    			<td style=" height: 0.4rem;">深圳 宝安区 万悦格兰云天大酒店 </td>
+    			<div style="clear: both;"></div>
+    		</tr>
+    		<tr style="width:100%;height: 0.4rem; margin-top:0.2rem ; display: block;">
+    			<td style="width:3rem; height: 0.4rem; text-align: right;">总&nbsp;成 &nbsp;本 |</td>
+    			<td style=" height: 0.4rem;">￥78000 </td>
+    			<div style="clear: both;"></div>
+    		</tr>
+    		<tr style="width:100%;height: 0.4rem; margin-top:0.2rem ; display: block;">
+    			<td style="width:3rem; height: 0.4rem; text-align: right;">最高学费 |</td>
+    			<td style=" height: 0.4rem;">20人成班，3900元/人</td>
+    			<div style="clear: both;"></div>
+    		</tr>
+    		<tr style="width:100%;height: 0.4rem; margin-top:0.2rem; display: block;">
+    			<td style="width:3rem; height: 0.4rem; text-align: right;">最低学费 |</td>
+    			<td style=" height: 0.4rem;">40人成班，1950元/人</td>
+    			<div style="clear: both;"></div>
+    		</tr>
+    	</div>
+    	<p style="text-align:center;font-size:0.28rem; font-weight:bold; color:#eb4b4b;margin:0.2rem auto;">
+			支付预约金299元后
+		</p>
+		<p style="text-align: center; font-size: 0.28rem;">
+		    请长按二维码添加班主任微信进班级群。 &nbsp;<br/>刘老师：13500045459 &nbsp; &nbsp;| &nbsp; &nbsp; 0755-86393121
+		</p>
+    </div>-->
+</div>
+<div class="big-line"></div>
+<div class="module-content container">
+	<div class="new-friend-box">
+        <a href="" id="new-friend-text">精选学习感悟</a>
+        <a href="" id="indent">我要留言</a>
+    </div>
+    <div class="c-row"></div>
+    <div class="line"></div>
+    <div class="Ly-box">
+    	<div class="userImg"><img src="../images/detail_img/w-h-img.png"></div>
+        <div class="Ly-text">
+        	<ul class="userName">
+            	<li><h2>我是郭小四身高149</h2></li>
+                <li id="DZ">
+                	<span style="display:inline-block;"><img src="../images/detail_img/dz.png" alt="" style="vertical-align:middle;"></span>
+                    <span style="display:inline-block; margin-right:0.1rem;">21</span>
+                </li>
+                <div class="c-row"></div>
+            </ul>
+            <p>这是一门非常好的课程，学习后我就找到了董秘的工作，感谢华扬，感谢老师；</p>
+        </div>
+        <div class="c-row"></div>
+    </div>
+     <div class="line"></div>
+     <div class="Ly-box">
+    	<div class="userImg"><img src="../images/detail_img/w-h-img.png"></div>
+        <div class="Ly-text">
+        	<ul class="userName">
+            	<li><h2>我是郭小四身高149</h2></li>
+                <li id="DZ">
+                	<span style="display:inline-block;"><img src="../images/detail_img/dz.png" alt="" style="vertical-align:middle;"></span>
+                    <span style="display:inline-block; margin-right:0.1rem;">21</span>
+                </li>
+                <div class="c-row"></div>
+            </ul>
+            <p>这是一门非常好的课程，学习后我就找到了董秘的工作，感谢华扬，感谢老师；</p>
+        </div>
+        <div class="c-row"></div>
+    </div>
+     <div class="line"></div>
+     <div class="Ly-box">
+    	<div class="userImg"><img src="../images/detail_img/w-h-img.png"></div>
+        <div class="Ly-text">
+        	<ul class="userName">
+            	<li><h2>我是郭小四身高149</h2></li>
+                <li id="DZ">
+                	<span style="display:inline-block;"><img src="../images/detail_img/dz.png" alt="" style="vertical-align:middle;"></span>
+                    <span style="display:inline-block; margin-right:0.1rem;">21</span>
+                </li>
+                <div class="c-row"></div>
+            </ul>
+            <p>这是一门非常好的课程，学习后我就找到了董秘的工作，感谢华扬，感谢老师；</p>
+        </div>
+        <div class="c-row"></div>
+    </div>
+    <div class="line"></div>
+    <div class="new-friend-box">
+        <a href="" id="new-friend-text">查看更多学习感悟</a>
+        <a href="" id="indent"><img src="../images/detail_img/rbtn.png"></a>
+    </div>
+    <div class="c-row"></div>
+</div>
+<div class="big-line"></div>
+<div class="module-content container">
+	<div class="new-friend-box">
+        <a id="pre-contant">往期精彩内容</a>
+        <div class="line"></div>
+    </div>
+    <div class="swiper-container" style="padding-bottom: 0.3rem;">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/detail_img/bgc.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="../images/detail_img/bgc.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="../images/detail_img/bgc.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="../images/detail_img/bgc.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="../images/detail_img/bgc.jpg" alt="1"></div>
+        </div>
+        <div class="c-row"></div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-pagination"></div>-->
+    </div>
+    <div class="c-row"></div>
+</div>
+<script src="../scripts/swiper.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+    </script>
+<div class="bottom-content">
+		<img src="../images/detail_img/zj_logo.png">
+</div>
+<div style="margin-bottom: 1.1rem;"></div>
+
+<div id="footer_nav">
+    <div class="col-1"><i></i>网上咨询</div>
+    <div class="col-2"><a href="tel:0755-86393121"><i></i>电话咨询</a></div>
+</div>
+</body>
+</html>
+
+
+<!--众筹玩法-->
+<div class="zc-shade"></div>
+<div class="play-box">
+		<div class="zc-play">
+			<header>
+				<h1>众筹玩法介绍</h1>
+			</header>
+			<figure>
+				<span>众等上课的两大好处：</span>
+				<figcaption>  
+					1.同学们推荐、筛选最实战的资本课程，让培训告别纸上谈兵，告别鸡汤误人，不浪费宝贵时间。
+	      			2.互联网众等方式，直接AA学习实战资本课程，降低组织成本形成高性价比学费，不花冤枉钱。
+				</figcaption>
+			</figure>
+			<figure>
+				<span>众筹须知：</span>
+				<figcaption>  			
+				     1.小班实战，实操导师陪练，20人起班：
+				     2.达到起班人数，众筹成功，否则，退款：
+				     3.封班后按总众筹人数，学费AA。
+				</figcaption>
+			</figure>
+			<header>
+				<h1>人越多，学费还能再低！</h1>
+			</header>
+			<figure>
+				<span>温馨提醒</span>
+				<figcaption>  			
+				       支付预约金500元之后，添加本期课程班级学习群，并保持联系畅通，班主任会及时与您联系。
+				</figcaption>
+			</figure>
+		</div>
+		<div class="know-del">知道了</div>
+</div>
+<script>
+$(function(){
+		$(".a-link").bind("click",function(){
+			$(".zc-shade").css("display","block")
+			$(".play-box").css("display","block")
+		});
+		$(".know-del").click(function(){
+			$(".zc-shade").css("display","none");
+			$(".play-box").css("display","none")
+		});
+		
+		//弹窗居中
+		var thisNode=$(".play-box")
+		var screenWidth=$(window).width(),
+			screenHeight=$(window).height();
+		var scrollTop=$(document).scrollTop();
+		var objLeft=(screenWidth-thisNode.width())/2;
+		var objTop=(screenHeight-thisNode.height())/2 + scrollTop;
+		thisNode.css({
+			left: objLeft + 'px',
+			top: objTop + 'px',
+		})	
+
+})	
+</script>

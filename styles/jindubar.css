@@ -1,0 +1,93 @@
+@charset "utf-8";
+.baifenbi{
+	 width: 6.9rem;
+	 height:auto;
+	 margin:auto;
+}
+.move-pl{
+	width:1.2rem; 
+	height: 0.32rem; 
+	border-radius:0.04rem;
+	line-height: 0.32rem;
+	font-size: 0.18rem; 
+	color: #fff; 
+	text-align: center; 
+	background: #ff5256; 
+	display: block; 
+	position:relative;
+	left:-0.6rem;
+	top: 0;
+	margin-bottom: 0.15rem;
+}
+.move-pl span{
+	position: absolute;
+	left: 45%;
+	bottom: -0.1rem;
+	width: 0;
+	height: 0;
+	border-top:0.1rem solid #ff5256 ;
+	border-left:0.1rem solid transparent;
+	border-right:0.1rem solid transparent;
+}
+.processbar {
+       width: 6.9rem;
+       height: 0.1rem;
+       background: #f2f2f2;
+       border-radius:0.2rem;
+       position: relative;
+}
+
+/*.processbar .img1{
+	position: absolute; 
+	z-index: 99;
+    margin-top: -0.15rem; 
+    left: 50%;
+    width: 0.2rem; 
+    height: 0.2rem;
+}*/
+
+.processbar .img1{
+	position: absolute; 
+	z-index: 99;
+    margin-top: -0.15rem; 
+    margin-left: -0.1rem;
+    width: 0.2rem; 
+    height: 0.2rem;
+    left: 50%;
+}
+
+.processbar .img1 img{
+    width: 0.2rem; 
+    height: 0.2rem;
+}
+
+.processbar .img2{
+	position: absolute; 
+	z-index: 99;
+    margin-top: -0.15rem;
+    right: 0;
+    width: 0.2rem; 
+    height: 0.2rem;
+}
+.process {
+   background: #fa5050;
+   height: 100%;
+   width: 0;
+   border-radius: 0.2rem;
+}
+.small-num{
+	margin-top:0.1rem;
+	font-size:0.2rem;
+	color:#999;
+	width: 6.9rem;
+	height: auto;
+	position: relative;
+}
+.small-num .min-pl{
+	position: absolute;
+	left: 50%;
+}
+.small-num .max-pl{
+	position: absolute;
+	right:0;
+}

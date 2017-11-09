@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>华扬资本-董秘</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<!--<script src="node_modules/vue/dist/vue.js"></script>-->
+<script src="http://code.jquery.com/jquery.js"> </script>
+<script src="../scripts/flexible.js"></script>
+<!--<script src="../scripts/initialscal.js"></script>-->
+<script src="../scripts/radialIndicator.js"></script>
+<link rel="stylesheet" href="../styles/common.css">
+<link rel="stylesheet" href="../styles/detail.css">
+<link rel="stylesheet" href="../styles/jindubar.css">
+<link rel="stylesheet" href="../styles/swiper.css">
+<link rel="stylesheet" href="../styles/index-wechat.css">
+
+<!--<script type="text/javascript">
+        var browser = {
+            versions: function() {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {     //移动终端浏览器版本信息
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                };
+            } (),
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        }
+        if (browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
+            /* var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            //在微信中打开
+            setInterval(WeixinJSBridge.call('closeWindow'),2000);
+            }
+            if (ua.match(/WeiBo/i) == "weibo") {
+            //在新浪微博客户端打开
+            }
+            if (ua.match(/QQ/i) == "qq") {
+            //在QQ空间打开
+            }
+            if (browser.versions.ios) {
+            //是否在IOS浏览器打开
+            } 
+            if(browser.versions.android){
+            //是否在安卓浏览器打开
+            }*/
+            window.location.href = "http://m.baidu.com/";
+        }
+        /*else {
+        //否则就是PC浏览器打开
+        window.close();
+        }    */
+   </script>-->
+</head>
+<body>
+<!--顶部文字导航-->
+<div class="container-fluid" >
+	<ul class="nav-menu">
+        <li class="map-city">
+        	<a><img src="../images/detail_img/map.png" alt="">选择城市</a>
+        </li>
+        <li class="sub-nav">
+        	<!--<a href="" class="current" style="text-align:center;">全部</a>-->
+            <a href="">上市挂牌</a>
+            <a href="">股权激励</a>
+            <a href="">企业并购</a>
+        </li>
+    	<li class="bBtn"></li>
+    </ul>
+    <div class="c-row"></div>
+</div>
+<!--城市下拉-->
+<div class="container-fluid" style="margin:0; padding:0;">
+	<ul class="sub-city-menu">
+    	<li><a href="">全部</a></li>
+        <li class="sub-click"><a href="">深圳</a></li>
+        <li><a href="">北京</a></li>
+        <li><a href="">上海</a></li>
+        <li><a href="">广州</a></li>
+        <li><a href="">南京</a></li>
+        <li><a href="">成都</a></li>
+        <li><a href="">江苏</a></li>
+        <div class="c-row"></div>
+    </ul>
+</div>
+<!--下拉内容模块-->
+<div class="container-fluid" style="margin:0; padding:0;" >
+	<ul class="sub-menu">
+    	<li><a href="">全部</a></li>
+        <li><a href="">市值管理</a></li>
+        <li><a href="">股权融资</a></li>
+        <li><a href="">非财</a></li>
+        <li><a href="">融资对接</a></li>
+        <li><a href="">华为考察</a></li>
+        <li><a href="">温氏考察</a></li>
+        <li><a href="">战略定位</a></li>
+        <li><a href="">商业模式</a></li>
+        <li><a href="">阿米巴</a></li>
+        <li><a href="">ppp</a></li>
+        <div class="c-row"></div>
+    </ul>
+</div>
+<script>
+$(function(){
+	$(".map-city").click(function(){
+		$(".sub-city-menu").slideToggle()
+		$(".sub-menu").css("display","none")
+	});
+	$(".bBtn").click(function(){
+		$(".sub-menu").slideToggle()
+		$(".sub-city-menu").css("display","none")
+	});
+})
+</script>
+<!--滑动banner-->
+<div class="container-fluid" style="margin:0; padding:0;">
+	<div class="swiper-container" style="margin:0; padding:0;">
+        <div class="swiper-wrapper" style="margin: 0; padding: 0;">
+            <div class="swiper-slide"><img src="../images/detail_img/banner1.jpg" alt="banner1"></div>
+            <div class="swiper-slide"><img src="../images/detail_img/banner2.jpg" alt="banner2"></div>
+            <div class="swiper-slide"><img src="../images/detail_img/banner3.jpg" alt="banner3"></div>
+            <div class="swiper-slide"><img src="../images/detail_img/banner4.jpg" alt="banner4"></div>
+        </div>
+    	<div class="swiper-pagination"></div>
+	</div>
+</div>
+<script src="../scripts/swiper.js"></script>
+<script language="javascript"> 
+var mySwiper = new Swiper('.swiper-container',{
+pagination : '.swiper-pagination',
+autoplay: 2000,
+//pagination : '#swiper-pagination1',
+})
+</script>
+<div style=" text-align:center; line-height:0.8rem; font-size:0.26rem; color:#999;">全部课程</div>
+<!--课程一-->
+<div id="banner" style="width: 7.5rem; margin: auto; height: auto;">
+    <img src="../images/detail_img/banner.jpg" alt="">
+</div>
+<div class="module-content container" >
+    <div class="zc-box">
+        <span class="zcBtn">报名中</span>
+        <span class="courseTitle">股权激励方案设计</span>
+        <span class="zcNum">第18期</span>
+    </div>
+    <div class="c-row"></div>
+</div>
+<div class="module-content container">
+    <div class="course-dist">
+        <div>
+            <figure>
+                <h2>12月3-4日</h2>
+                <figcaption>上课时间</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>深圳</h2>
+                <figcaption>地点</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>￥6000</h2>
+                <figcaption>最低学费</figcaption>
+            </figure>
+
+        </div>
+        <div>
+			<canvas id="test" width="52%" height="50%" style=" width: 62%;"></canvas>
+        </div>
+    </div>
+    <script src="../scripts/fn.js"></script>
+    <script>
+		createCricle('test', 20, 40,24,2,0.2);
+	</script>
+</div>
+<div class="big-line" style="margin:0.2rem auto;"></div>
+<!--课程一-->
+<div id="banner">
+    <img src="../images/detail_img/banner.jpg" alt="">
+</div>
+<div class="module-content container">
+    <div class="zc-box">
+        <span class="zcBtn1">筹满</span>
+        <span class="courseTitle">股权激励方案设计</span>
+        <span class="zcNum">第18期</span>
+    </div>
+    <div class="c-row"></div>
+</div>
+<div class="module-content container">
+    <div class="course-dist">
+        <div>
+            <figure>
+                <h2>12月3-4日</h2>
+                <figcaption>上课时间</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>深圳</h2>
+                <figcaption>地点</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>￥6000</h2>
+                <figcaption>最低学费</figcaption>
+            </figure>
+
+        </div>
+        <div>
+			<!--<canvas id="test1" width="50" height="50" style=" margin-top:-0.1rem;"></canvas>-->
+        	<div id="indicatorContainer"></div>
+        </div>
+    </div>
+    <script src="../scripts/fn.js"></script>
+    <script>
+//		createCricle('test1', 40, 40,24,2,0.24);
+		var progObj = radialIndicator('#indicatorContainer' , {
+			barWidth:2,//定义圆形指示器的宽度
+			radius:25, //定义圆形指示器的内部的圆的半径。
+			barBgColor:"#CCC", //定义圆形指示器的刻度条的背景颜色。
+			barColor:"#99CC33", //指示器数值样式
+			//percentage:true, //设置为true显示圆形指示器的百分比数值。
+			// initValue:$("#indicatorVue").val(), //圆形指示器初始化的值。
+			minValue:0, //圆形指示器的最小值。
+			maxValue:50
+		});
+		progObj.animate($("#indicatorVue").val()); //启动动画
+//		//获取指示器的数值
+		var val = progObj.val();
+		//设置指示器的数据，动画效果
+		progObj.animate(100); 
+	</script>
+</div>
+<div class="big-line" style="margin:0.3rem auto;"></div>
+<!--课程一-->
+<div id="banner">
+    <img src="../images/detail_img/banner.jpg" alt="">
+</div>
+<div class="module-content container">
+    <div class="zc-box">
+        <span class="zcBtn1">筹满</span>
+        <span class="courseTitle">股权激励方案设计</span>
+        <span class="zcNum">第18期</span>
+    </div>
+    <div class="c-row"></div>
+</div>
+<div class="module-content container">
+    <div class="course-dist">
+        <div>
+            <figure>
+                <h2>12月3-4日</h2>
+                <figcaption>上课时间</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>深圳</h2>
+                <figcaption>地点</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>￥6000</h2>
+                <figcaption>最低学费</figcaption>
+            </figure>
+
+        </div>
+        <div>
+			<canvas id="test2" width="50" height="50" style=" margin-top:-0.1rem;"></canvas>
+        </div>
+    </div>
+    <script src="../scripts/fn.js"></script>
+    <script>
+		createCricle('test2', 40, 40,24,2,0.24);
+	</script>
+</div>
+<div class="big-line" style="margin:0.3rem auto; "></div>
+<!--课程一-->
+<div id="banner">
+    <img src="../images/detail_img/banner.jpg" alt="">
+</div>
+<div class="module-content container">
+    <div class="zc-box">
+        <span class="zcBtn">众筹中</span>
+        <span class="courseTitle">股权激励方案设计</span>
+        <span class="zcNum">第18期</span>
+    </div>
+    <div class="c-row"></div>
+</div>
+<div class="module-content container">
+    <div class="course-dist">
+        <div>
+            <figure>
+                <h2>12月3-4日</h2>
+                <figcaption>上课时间</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>深圳</h2>
+                <figcaption>地点</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>￥6000</h2>
+                <figcaption>最低学费</figcaption>
+            </figure>
+
+        </div>
+        <div>
+			<canvas id="test3" width="50" height="50" style=" margin-top:-0.1rem;"></canvas>
+        </div>
+    </div>
+    <script src="../scripts/fn.js"></script>
+    <script>
+		createCricle('test3', 20, 40,24,2,0.24);
+	</script>
+</div>
+<div class="big-line" style="margin:0.3rem auto;"></div>
+<!--课程一-->
+<div id="banner">
+    <img src="../images/detail_img/banner.jpg" alt="">
+</div>
+<div class="module-content container">
+    <div class="zc-box">
+        <span class="zcBtn">众筹中</span>
+        <span class="courseTitle">股权激励方案设计</span>
+        <span class="zcNum">第18期</span>
+    </div>
+    <div class="c-row"></div>
+</div>
+<div class="module-content container">
+    <div class="course-dist">
+        <div>
+            <figure>
+                <h2>12月3-4日</h2>
+                <figcaption>上课时间</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>深圳</h2>
+                <figcaption>地点</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <h2>￥6000</h2>
+                <figcaption>最低学费</figcaption>
+            </figure>
+
+        </div>
+        <div>
+			<canvas id="test4" width="50" height="50" style=" margin-top:-0.1rem;"></canvas>
+        </div>
+    </div>
+    <script src="../scripts/fn.js"></script>
+    <script>
+		createCricle('test4', 20, 40,24,2,0.24);
+	</script>
+</div>
+
+
+
+<div style="margin-top:2rem;"></div>
+<!--固定底部-->
+<div id="footer_nav">
+    <div class="col-1">
+        <a href="">
+            <figure>
+                <img src="../images/detail_img/footIcon1.png" alt="" />
+                <p>资本干货</p>
+            </figure>
+        </a>
+    </div>
+   <div class="col-1">
+        <a href="">
+            <figure>
+                <img src="../images/detail_img/footIcon2.png" alt="" />
+                <p>近期课程</p>
+            </figure>
+        </a>
+    </div>
+    <div class="col-1">
+        <a href="">
+            <figure>
+                <img src="../images/detail_img/footIcon3.png" alt="" />
+                <p>课程需求</p>
+            </figure>
+        </a>
+    </div>
+    <div class="col-1">
+        <a href="">
+            <figure>
+                <img src="../images/detail_img/footIcon4.png" alt="" />
+                <p>个人中心</p>
+            </figure>
+        </a>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

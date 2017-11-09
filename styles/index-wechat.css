@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+.nav-menu{
+	width:100%; 
+	height:0.7rem; 
+	margin:auto;
+}
+.nav-menu li{
+	float:left;
+}
+.nav-menu .map-city{
+	width:1.4rem;
+	height:0.7rem;	
+}
+.nav-menu .map-city a{
+	display:inline-block;
+	font-size:0.26rem;
+	line-height:0.7rem;
+	color:#fa5050;
+	}
+.nav-menu .map-city img{
+	width:0.27rem;
+	height:0.3rem;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:0.05rem;
+	}
+.nav-menu .sub-nav{
+	display:flex;
+	display:-webkit-flex;
+	width:4.6rem;
+	height:0.7rem;
+	line-height:0.7rem;
+	margin-left:0.1rem;
+}
+.nav-menu .sub-nav .current{ color:#fa5050;}
+.nav-menu .sub-nav a{
+	flex:1;
+	font-size:0.26rem;
+	text-align: center;
+}
+.nav-menu .bBtn{
+	float:right;
+	width:0.7rem;
+	height:0.7rem;
+	background:url(../images/detail_img/bBtn.png) 50% 50% no-repeat;
+	position:relative;
+	border-left:0.01rem solid #e5e5e5;
+}
+/*.nav-menu .bBtn img{
+	position:absolute;
+	left:0; 
+	top:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	display:block;
+}*/
+.sub-menu,.sub-city-menu{
+	width:100%;
+	height:auto;
+	flex-wrap:wrap;
+	border-top:0.01rem solid #e5e5e5;
+	position:absolute;
+	z-index:99;
+	display:none;
+	background:rgba(255,255,255,1);
+}
+.sub-menu li, .sub-city-menu li{
+	width:22%;
+	height:auto;
+	float:left;
+	text-align:center;
+	border:0.01rem solid #999;
+	font-size:0.26rem;
+	padding:0.1rem;
+	margin:0.1rem;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+ -webkit-box-sizing:border-box; /* Safari */
+}
+/*.sub-click{ background:#ff0000;}*/
+.zc-box{ 
+	width:100%; 
+	height:0.4rem; 
+	padding-top:0.3rem;
+}
+.zc-box span{ float:left; display:inline-block;}
+.zc-box .zcBtn{
+	width:1.6rem;
+	height:0.4rem;
+	background:#fa5050;
+	text-align:center;
+	line-height:0.4rem;
+	font-size:0.26rem;
+	color:#fff;
+	border-radius:0.06rem;
+	display:inline-block;
+}
+.zc-box .zcBtn1{
+	width:1.6rem;
+	height:0.4rem;
+	background:#ffd200;
+	text-align:center;
+	line-height:0.4rem;
+	font-size:0.26rem;
+	color:#fff;
+	border-radius:0.06rem;
+	display:inline-block;
+}
+.zc-box .courseTitle{
+	width:auto;
+	height:0.4rem;
+	text-align:center;
+	font-size:0.3rem;
+	margin-left:0.3rem;
+	display:inline-block;
+}
+.zc-box .zcNum{
+	width:1rem;
+	height:0.4rem;
+	font-size:0.26rem;
+	text-align:center;
+	line-height:0.4rem;
+	color:#fff;
+	float:right;
+	background:#fa5050;
+	border-radius:0.06rem;
+}

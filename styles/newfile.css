@@ -1,0 +1,253 @@
+.logoRed-box{
+	padding: 0.3rem 0;
+}
+.logoRed-box .logoRed{
+	float: left;
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.logoRed-box .logo-right{
+	float:left;
+	margin-left: 0.3rem;
+	width: 5.4rem;
+}
+.logoRed-box .logo-right span:nth-child(1){
+	float: left;
+	width: 1.6rem;
+	height: 0.4rem;
+	text-align: center;
+	color: #fff;
+	line-height: 0.4rem;
+	border-radius:0.06rem;
+	font-size: 0.26rem;
+	background:#fa4343;
+}
+.logoRed-box .logo-right span:nth-child(2){
+	float: right;
+	color: #fa4343;
+	line-height: 0.4rem;
+	font-size: 0.26rem;
+}
+.logoRed-box .logo-right h1{
+	margin-top: 0.2rem;
+	font-size: 0.32rem;
+	font-weight: bold;
+}
+.text{
+	padding:0.2rem 0.3rem; 
+	/*background: #ededed; */
+	font-size: 0.26rem; 
+	color: #666;
+	text-align: center;
+}
+#par-form-box{
+	width: 100%; 
+	height: auto;
+}
+.delete{
+	padding: 0.3rem; 
+	background: #ededed; 
+	font-size: 0.26rem;
+	/*display: none;*/
+	color: #fe484e;
+	display: flex;
+	display: -webkit-flex;
+}
+.delete span{
+	flex: 1;
+	display: inline-block;
+	
+}
+.delete .deletIcon{
+	text-align: right;
+	cursor: pointer;
+}
+#pri-form{
+	width: 100%; 
+	height: auto;
+}
+#pri-form .infor-row,#pri-form .infor-row1{
+	width:100%; 
+	height: 0.6rem; 
+	border-bottom: 0.01rem solid #e5e5e5; 
+	line-height: 0.6rem;
+}
+#pri-form .infor-row1{
+	background: #ededed;
+}
+#pri-form .infor-row td:nth-child(1),
+#pri-form .infor-row1 td:nth-child(1){
+	font-size: 0.26rem; 
+	text-align: left; 
+	width:30%; 
+	height: 0.6rem; 
+}
+#pri-form .infor-row td:nth-child(1) span,
+#pri-form .infor-row1 td:nth-child(1) span{
+	margin-left: 0.3rem;
+}
+#pri-form .infor-row td:nth-child(2),
+#pri-form .infor-row1 td:nth-child(2){
+	font-size: 0.26rem; 
+	width:70%; 
+	height: 0.6rem; 
+}
+#pri-form .infor-row input{
+	border: none;
+	width: 100%; 
+	height: 0.58rem; 
+	font-size: 0.26rem;
+	/*border-style: none;*/
+	color: #333;
+	
+}
+#pri-form .infor-row input:focus{
+	/*border:0.01rem solid #008dc8;*/
+	box-shadow:1px 1px 10px 1px rgba(0,141,200,0.5);
+}
+.addTxt{
+	text-align: right; 
+	font-size: 0.26rem;
+	color: #008dc8;
+	cursor: pointer;
+	padding:0 0.3rem 0.3rem 0;
+}
+.next{
+	width: 80%; 
+	height: 0.7rem; 
+	margin:0.4rem auto; 
+	text-align: center; 
+	line-height: 0.7rem; 
+	font-size: 0.3rem;
+	background: #008dc8;
+	border-radius:0.1rem;
+	color: #ffffff;
+	display: block;
+	border: none;
+}
+
+
+/*所有报名学员*/
+.num-course{
+	width: 100%;
+	height: 0.8rem;
+	display: flex;
+}
+.num-course a{
+	flex: 1;
+	text-align: center;
+	line-height: 0.8rem;
+	font-size: 0.26rem;
+}
+.active-a{
+	border-bottom: 0.02rem solid #fe484e;
+}
+.big-line{
+	width:100%;
+	height: 0.2rem;
+	background: #ededed;
+}
+.student-list-box{
+	padding: 0.3rem 0;
+}
+.student-list-box ul{}
+.student-list-box ul li{
+	font-size: 0.26rem;
+	float: left;
+}
+.student-list-box ul li h2{
+	font-size: 0.3rem;
+}
+
+.student-list-box ul li:nth-child(1){
+	width: 0.9rem;
+	height: 0.9rem;
+	position: relative;
+}
+
+.student-list-box ul li:nth-child(1) .srl-num{
+	width: 0.3rem;
+	height: 0.3rem;
+	text-align: center;
+	line-height: 0.3rem;
+	border-radius: 0.15rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.15rem;
+	margin-left: -0.15rem;
+	left: 0;
+	font-size: 0.16rem;
+	color: #fff;
+	background: #f54f4f;
+}
+
+.student-list-box ul li img{
+	width: 0.9rem;
+	height: 0.9rem;
+	margin-right: 0.3rem;
+}
+.student-list-box ul li p{
+	font-size: 0.24rem;
+	margin-top: 0.1rem;
+}
+.student-list-box ul li span{
+	color: #ff6060;
+}
+/*个人中心*/
+.personal-box{
+	width: 100%;
+	height: 3.6rem;
+	position: relative;
+}
+.personal-box figure{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 2rem;
+	height: 2rem;
+}
+.personal-box figure figcaption{
+}
+.personal-box figure p{
+	text-align: center;
+	margin-top: 0.1rem;
+	font-size: 0.26rem;
+}
+.personal-box figure figcaption img{
+	width: 2rem;
+	height: 2rem;
+	display: block;
+	border: none;
+	margin: auto;
+}
+.require{
+	width: 100%;
+	height: auto;
+	padding: 0.3rem;
+	font-size: 0.28rem;
+}
+/*报名课程*/
+.students_num{
+	font-size: 0.2rem;
+	padding-top: 0.2rem;
+	color: #999;
+	text-align: right;
+}
+.courseInfor{
+	display: flex; 
+	display: -webkit-flex;
+}
+.courseInfor div{
+	flex: 1;
+	font-size: 0.28rem;
+	padding: 0.3rem 0;
+}
+.courseInfor div input[type=radio]{
+	text-align: left;
+	width: 0.28rem;
+	height: 0.28rem;
+	display: block;
+}
